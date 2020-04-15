@@ -1,0 +1,26 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title> Lesson3 </title>
+    </head>
+    <body>
+        <p> How do you feel today? </p>
+        <button id="goodButton"> Good Slightly Smiling Face Emoji.png </button><button id="badButton"> Bad Very Sad Emoji.png</button>
+        <p id="answer"></p>
+        <script>
+            let goodButtonCmp = document.getElementById("goodButton");
+            let badButtonCmp = document.getElementById("badButton");
+            let answerCmp = document.getElementById("answer");
+            function goodButtonClick(event) {
+                answerCmp.textContent = "I feel really good today Very Sad Emoji.png";
+            }
+            function badButtonCmpClick(event) {
+                answerCmp.textContent ="Oh I feel so sad today Slightly Smiling Face Emoji.png ";
+            }
+            goodButtonCmp.addEventListener("click", goodButtonClick);
+            badButtonCmp.addEventListener("click", badButtonCmpClick);
+        </script>
+
+
+    </body>
+</html>
