@@ -1,0 +1,51 @@
+body{
+    margin: 0;
+    overflow-x: hidden;
+   }
+   .header{
+     background: rgba(100,100,100,0.5);
+     color: white;
+     width: 100%;
+     display: inline-block;  
+     height: 40px;
+     line-height: 0.5;
+     padding: 5px 16px;
+     padding-left: 5%;
+     padding-right: 10%;
+     font-family: Arial;
+     font-weight: 700;
+     white-space: nowrap;
+     overflow: hidden;
+     box-sizing: border-box;
+     max-width: 100%;   
+   }
+   .menu-item {
+     display: inline-block;
+   }
+   .menu-item{
+       display: inline-block;
+       color: white;
+       font-size: 16px;
+       
+       text-align: center;
+       padding: 14px 16px;
+       text-decoration: none;
+   }
+   .img-responsive{
+     width: 60%;
+     height: 60%;
+     border-radius:0px;
+   }
+   .card{
+       border: 2px dotted #404040;
+       padding: 1em;
+       margin-top: 1em;
+       margin-bottom: 2em;
+       margin-right: 15em;
+   }
+   .back-to-top {
+     margin-left: 90%;
+     color: #4d4d4d;
+   }
+
+
